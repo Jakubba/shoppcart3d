@@ -22,7 +22,8 @@ const Cart = () => {
                     <table className="table table-light table-hover m-0">
                         {items.map((item,index)=>{
                             return(
-                                    <tr key={index}>
+                                <tbody key={index}>
+                                    <tr>
                                         <td>
                                             <img className={'img-cart'} src = {item.img} style ={{height: '6rem'}} />
                                         </td>
@@ -40,6 +41,7 @@ const Cart = () => {
                                                     onClick={()=>removeItem(item.id)}>X</button>
                                         </td>
                                     </tr>
+                                </tbody>
                                 )
                         })}
 
