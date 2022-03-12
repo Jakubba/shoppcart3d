@@ -40,9 +40,14 @@ html,body{
 }
 .navbar .navLinks{
   font-size: 12px;
-  color: black;
   font-weight: 600;
   margin: auto 10px;
+  padding: 10px;
+  background: linear-gradient(180deg, #1f005c, #4d0773, #85118b, #a21d7f, #b92c68, #d03e50, #e87053, #ffb56b);
+  text-decoration: none;
+  border-radius: 10%;
+  color: white;
+  text-decoration: none;
 }
 h1{
   font-family: 'Smooch', cursive;
