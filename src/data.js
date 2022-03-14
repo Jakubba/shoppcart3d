@@ -15,7 +15,7 @@ const data = {
     productData:[
         {
             id:1,
-            img:img1,
+            img: img1,
             title:'Centaur Barbarzyńca',
             description: 'Brak opisu',
             price: 15.99 ,

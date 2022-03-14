@@ -8,11 +8,7 @@ export const Navbar = () => {
             <div className = "leftSide">
                 <img src={require('./images/icons8-mana-100.png')} alt={""}/>
             </div>
-            <h1>Magic Shop</h1>
-            <div className="rightSide">
-                <a href="/signup" className="navLinks">SIGN UP</a>
-                <a href="/login" className="navLinks">LOGIN</a>
-            </div>
+            <h1 className="nav-bar-titlle">Shoping Cart</h1>
         </div>
     )
 }

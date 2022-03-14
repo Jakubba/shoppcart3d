@@ -1,5 +1,6 @@
 import React from 'react';
 import {useCart} from "react-use-cart";
+import img from './images/18306643691645017971-128.png'
 
 const Cart = () => {
     const {
